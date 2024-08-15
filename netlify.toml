@@ -1,0 +1,8 @@
+[build]
+  command = "python -m http.server 8000"
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
